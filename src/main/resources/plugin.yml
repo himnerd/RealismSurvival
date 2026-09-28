@@ -1,0 +1,15 @@
+name: NerdianRealism
+version: 1.0.0
+main: com.nerdianmc.realism.RealismPlugin
+api-version: '26.3'
+author: nerdianMC
+description: Server-side hydration, fatigue, temperature and encumbrance for Java and Geyser players.
+commands:
+  survival:
+    aliases: [realism, needs]
+    description: View survival needs, drink water, or administer survival items.
+    usage: /survival [status|drink|give|reload]
+permissions:
+  nerdianrealism.admin:
+    description: Reload the configuration and give custom survival items.
+    default: op

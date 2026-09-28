@@ -1,0 +1,33 @@
+hud:
+  mode: actionbar # actionbar or bossbar; bossbar still shows temperature, fatigue and weight in the action bar
+  update-ticks: 40
+hydration:
+  movement-per-block: 0.004
+  sprint-per-block: 0.025
+  jump-cost: 0.15
+  damage-base-cost: 0.8
+  damage-per-heart: 0.3
+  passive-per-minute: 0.6
+  hot-biome-multiplier: 1.8
+  heatstroke-multiplier: 3.0
+  raw-water-restore: 22.0
+  purified-water-restore: 100.0
+  raw-water-illness-chance: 0.22
+  critical-threshold: 10.0
+fatigue:
+  full-exhaustion-days: 2.5
+  blindness-chance-per-check: 0.08
+  campfire-rest-seconds: 30
+  short-rest-recovery: 30.0
+  short-rest-cooldown-seconds: 600
+  stimulant-delay-seconds: 300
+  stimulant-speed-seconds: 60
+temperature:
+  default: 37.0
+  approach-per-check: 0.22
+  hypothermia-threshold: 32.0
+  heatstroke-threshold: 40.0
+encumbrance:
+  sprint-limit: 180.0
+  maximum-limit: 300.0
+  extra-jump-cost-at-maximum: 0.65
